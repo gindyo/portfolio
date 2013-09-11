@@ -1,9 +1,6 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-body{
-  background: url(/assets/bg-siteindex.jpg)
- }
 
 .navbar-inner a{
 	color: #898299
@@ -18,6 +15,7 @@ h4 {
 }
 
 li {
-	font-family: Times;
+	font-family: "josefin slab";
+  font-weight: 600;
 	line-height: 2em
 }

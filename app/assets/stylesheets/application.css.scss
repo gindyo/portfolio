@@ -8,20 +8,52 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
- *= require_self
  *= require_tree .
+ *= require_self
 */
-
+body{
+  background: url(/assets/bg.jpg) fixed
+ }
 .content {
-  background-color: #eee;
-  padding: 20px;
+  background-color: #fff;
+  padding: 0px 80px;
+  min-height: 500px;
   margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+  
   -webkit-border-radius: 0 0 6px 6px;
   -moz-border-radius: 0 0 6px 6px;
   border-radius: 0 0 6px 6px;
   -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
   -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
   box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  
+}
+.navbar .brand{
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 30px;
+  font-weight: 400;
+}
+.navbar-inner{
+  background: #343131;
+  height: 90px;
+  color: white
+}
+
+.navbar-inner a{
+  color: white
+}
+
+h3{
+  font-family: "Open Sans"
+}
+
+h5 {
+  font-family: "Open Sans" 
+}
+
+h4 {
+  font-family: serif
 }
 
 
