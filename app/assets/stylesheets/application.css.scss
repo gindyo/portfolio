@@ -12,7 +12,9 @@
  *= require_self
 */
 body{
-  background: url(/assets/bg.jpg) fixed
+  background: url(/assets/bg.jpg) fixed;
+  font-family: 'josefin slab'
+  
  }
 .container{
   width: 940px;
@@ -34,7 +36,7 @@ body{
 }
 .navbar .brand{
   color: white;
-  font-family: 'Open Sans';
+  font-family: 'Source Sans Pro' ;
   font-size: 30px;
   font-weight: 400;
 }
@@ -48,16 +50,9 @@ body{
   color: white
 }
 
-h3{
-  font-family: "Open Sans"
-}
+h1,h2,h3,h4,h5{
+  font-family: 'Source Sans Pro' 
 
-h5 {
-  font-family: "Open Sans" 
-}
-
-h4 {
-  font-family: serif
 }
 
 
