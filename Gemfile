@@ -11,6 +11,7 @@ gem 'bootstrap-sass'
 gem 'figaro'
 gem 'haml-rails'
 gem 'mysql2'
+gem 'pg'
 gem 'thin'
 group :development do
   gem 'better_errors'
