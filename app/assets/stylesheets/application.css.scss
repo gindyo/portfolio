@@ -12,7 +12,8 @@
  *= require_self
 */
 body{
-  background: url(/assets/bg.jpg) fixed;
+  background: url(/assets/bg.jpg) fixed no-repeat;
+  background-size: cover;
   font-family: 'josefin slab'
   
  }
@@ -40,13 +41,13 @@ body{
   font-size: 30px;
   font-weight: 400;
 }
-.navbar-inner{
+.top-header{
   background: #343131;
   height: 90px;
   color: white
 }
 
-.navbar-inner a{
+.top-header a{
   color: white
 }
 
