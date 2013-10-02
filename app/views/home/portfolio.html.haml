@@ -1,40 +1,35 @@
-
 %link(src='/css/prettyPhoto.css')
-%table
-  %tr
-    %td
-      %table#biddit
-        %tr
-          %td
-            %a(href='/assets/kiosk.png' rel="prettyPhoto")
-              =image_tag 'kiosk.png'
-          %td
-            %a(href='/assets/checkout.png' rel="prettyPhoto")
-              =image_tag 'checkout.png'
-        %tr
-          %td
-            %a(href='/assets/checkin.png' rel="prettyPhoto")
-              =image_tag 'checkin.png'
-          %td
-            %a(href='/assets/dash.png' rel="prettyPhoto")
-              =image_tag 'dash.png'
-    %td
-      'Biddit' is a cloud based silent auction management solution. It allows for a replacement of the typical charity event silent auction 'paper and pan' format, with a touch screen kiosks or phone/tablet app
-      %br
-      %h5
-        Please contact me for a tour!
-        
-  %tr
-    %td
-      %a(href='http://restate-us.heroku.com' target='_blank')
-        =image_tag 'restate.png'
-    %td
-      Single page application I created while learning AngularJS.
-      Web page is 
-      =link_to 'here', 'http://restate-us.heroku.com'
-      (make sure you click on one of the "Featured Areas" links)
-      You can see the code 
-      =link_to 'here', 'http://github.com/gindyo/restate'
+.site#biddit
+  .img
+    .biddit-screen
+      %a(href='/assets/kiosk.png' rel="prettyPhoto")
+        =image_tag 'kiosk.png'
+    .biddit-screen
+      %a(href='/assets/checkout.png' rel="prettyPhoto")
+        =image_tag 'checkout.png'
+    .biddit-screen
+      %a(href='/assets/checkin.png' rel="prettyPhoto")
+        =image_tag 'checkin.png'
+    .biddit-screen
+      %a(href='/assets/dash.png' rel="prettyPhoto")
+        =image_tag 'dash.png'
+  .description  
+    'Biddit' is a cloud based silent auction management solution. It allows for a replacement of the typical charity event silent auction 'paper and pan' format, with a touch screen kiosks or phone/tablet app
+    %br
+    %h5
+      Please contact me for a tour!
+.clearfix
+.site#re 
+  .img
+    %a(href='http://restate-us.heroku.com' target='_blank')
+      =image_tag 'restate.png'
+  .description  
+    Single page application I created while learning AngularJS.
+    Web page is 
+    =link_to 'here', 'http://restate-us.heroku.com'
+    (make sure you click on one of the "Featured Areas" links)
+    You can see the code 
+    =link_to 'here', 'http://github.com/gindyo/restate'
       
         
 
